@@ -4,11 +4,12 @@ from selenium.webdriver.common.keys import Keys
 
 i=1
 chrome = webdriver.Chrome()
+
 # Tinderに飛ぶ
 chrome.get("https://tinder.com/app/login")
-# 手動でログインしたら、yキーを1回押してスタート
-# 0.25秒ごとに、右キー（いいね）を入力、3000人まで行ったら、終了
 
+# 手動でログインしたら、yキーを1回押してスタート
+# 0.3秒ごとに、右キー（いいね）を入力、3000人まで行ったら、終了
 key = input('Tinderのトップページが出たらy→Enterを押してください')
 if key == "y":
     # ↓の < の右にある数字でフリック数の上限を指定
