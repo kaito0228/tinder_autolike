@@ -2,10 +2,11 @@ import random
 import time
 
 from selenium import webdriver
+from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.webdriver.common.keys import Keys
 
-i = 1
-chrome = webdriver.Chrome()
+i: int = 1
+chrome: WebDriver = webdriver.Chrome()
 
 # Tinderに飛ぶ
 chrome.get("https://tinder.com/app/login")
