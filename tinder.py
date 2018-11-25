@@ -21,5 +21,5 @@ if key == "y":
         time.sleep(random.uniform(0.5, 3))
         print(i)
     else:
-        print("3000人にいいねしました")
+        print("2000人にいいねしました")
         chrome.close()
