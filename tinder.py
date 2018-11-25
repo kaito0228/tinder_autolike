@@ -11,7 +11,7 @@ chrome = webdriver.Chrome()
 chrome.get("https://tinder.com/app/login")
 
 # 手動でログインしたら、yキーを1回押してスタート
-key = input('Tinderのトップページが出たらy→Enterを押してください')
+key = input("Tinderのトップページが出たらy→Enterを押してください")
 if key == "y":
     # ↓の < の右にある数字でフリック数の上限を指定
     while i <= 2000:
